@@ -24,7 +24,6 @@ public class CorrentistaController {
 		@Autowired
 		public CorrentistaService service;
 		
-		
 		@GetMapping
 		public List<Correntista> findAll(){
 			return repository.findAll();
@@ -33,7 +32,5 @@ public class CorrentistaController {
 		@PostMapping
 		public void save(@RequestBody NovoCorrentista correntista) {
 			service.safe(correntista);
-			
-			
 		}
 }

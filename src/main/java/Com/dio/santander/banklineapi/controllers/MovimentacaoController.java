@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import Com.dio.santander.banklineapi.dto.NovaMovimentacao;
-import Com.dio.santander.banklineapi.dto.NovoCorrentista;
-import Com.dio.santander.banklineapi.model.Correntista;
+
+
 import Com.dio.santander.banklineapi.model.Movimentacao;
-import Com.dio.santander.banklineapi.repository.CorrentistaRepository;
+
 import Com.dio.santander.banklineapi.repository.MovimentacaoRepository;
-import Com.dio.santander.banklineapi.service.CorrentistaService;
+
 import Com.dio.santander.banklineapi.service.MovimentacaoService;
 
 @RestController
